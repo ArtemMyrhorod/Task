@@ -55,6 +55,12 @@ img {
    margin: 0 auto;
 }
 
+.small-container {
+   max-width: 770px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
 .about {
    padding: 20px 0 20px;
 }
@@ -92,4 +98,17 @@ img {
 
 .about__btn {
    border-color: var(--color-accent);
+}
+
+.team {
+   padding: 20px 0 20px;
+}
+
+.team__text {
+   padding-bottom: 35px;
+}
+
+.team__members {
+   display: flex;
+   justify-content: space-between;
 }
