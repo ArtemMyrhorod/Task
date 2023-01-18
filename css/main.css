@@ -113,3 +113,37 @@ img {
    justify-content: space-between;
    margin-bottom: 80px;
 }
+
+.banner {
+   padding-top: 20px;
+}
+
+.banner__wrapper {
+   background-color: var(--color-accent);
+   border-radius: 4px;
+   padding: 40px 50px 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.banner__info {
+   max-width: 490px;
+}
+
+.banner__title {
+   color: #FFFFFF;
+   opacity: 0.4;
+}
+
+.banner__text {
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 44px;
+   color: #FFFFFF;
+}
+
+.banner__btn {
+   z-index: 1;
+   background-color: #ffffff;
+   align-self: flex-end;
+}
