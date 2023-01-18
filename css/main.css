@@ -111,4 +111,5 @@ img {
 .team__members {
    display: flex;
    justify-content: space-between;
+   margin-bottom: 80px;
 }
